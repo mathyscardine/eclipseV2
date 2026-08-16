@@ -1,0 +1,17 @@
+⚠️ IMPORTANT ⚠️
+
+Le fichier gradle-wrapper.jar est trop gros pour etre inclus dans le zip.
+
+SOLUTION 1 : Utilise IntelliJ IDEA (recommande)
+- Ouvre ce dossier avec IntelliJ
+- Il telechargera Gradle automatiquement
+
+SOLUTION 2 : Telecharge le wrapper manuellement
+- Va sur https://raw.githubusercontent.com/gradle/gradle/v8.8.0/gradle/wrapper/gradle-wrapper.jar
+- Sauvegarde le fichier dans : gradle/wrapper/gradle-wrapper.jar
+- Lance COMPILE.bat
+
+SOLUTION 3 : Utilise Gradle directement
+- Telecharge Gradle : https://gradle.org/install/
+- Ajoute Gradle au PATH
+- Lance : gradle build
